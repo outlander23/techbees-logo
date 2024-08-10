@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techbees Logo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="logo-container">
+      <svg
+        class="logo"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 200 200"
+      >
+        <!-- Hexagon Shape -->
+        <polygon
+          points="100,20 160,60 160,140 100,180 40,140 40,60"
+          class="hexagon"
+        />
+
+        <!-- Bee Body -->
+        <ellipse cx="100" cy="100" rx="36" ry="50" class="bee-body" />
+        <!-- Bee Head -->
+        <circle cx="100" cy="70" r="20" class="bee-head" />
+        <!-- Bee Wings -->
+        <ellipse cx="70" cy="60" rx="20" ry="36" class="bee-wing" />
+        <ellipse cx="130" cy="60" rx="20" ry="36" class="bee-wing" />
+        <!-- Bee Stripes -->
+        <rect x="84" y="90" width="32" height="16" class="bee-stripe" />
+        <rect x="84" y="110" width="32" height="16" class="bee-stripe" />
+        <!-- Bee Antenna -->
+        <line x1="90" y1="50" x2="70" y2="30" class="bee-antenna" />
+        <line x1="110" y1="50" x2="130" y2="30" class="bee-antenna" />
+      </svg>
+      <div class="logo-text">Techbees</div>
+    </div>
+  </body>
+</html>

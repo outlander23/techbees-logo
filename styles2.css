@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  /* background-color: #1d0101; */
+  background-color: #180235;
+  font-family: "Courier Prime", monospace;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  width: 400px;
+  height: 400px;
+}
+
+.hexagon {
+  fill: none;
+  stroke: #00bfff; /* Modern cyan-blue color */
+  stroke-width: 5;
+  stroke-linejoin: round;
+}
+
+.bee-body {
+  fill: #00bfff; /* Cyan-blue matching the hexagon */
+}
+
+.bee-head {
+  fill: #9dabb1; /* Refined dark grey for professionalism */
+}
+
+.bee-wing {
+  fill: #b6b2b2; /* Light Slate Blue for a more modern and subtle look */
+  opacity: 0.8;
+}
+
+.bee-stripe {
+  fill: #b6b2b2; /* Softer grey for stripes */
+}
+
+.bee-antenna {
+  stroke: #ada9a9; /* Lighter grey for antennas */
+  stroke-width: 4;
+}
+
+.logo-text {
+  margin-top: -18px; /* Reduced margin for closer text */
+  font-size: 72px; /* Slightly increased font size */
+  color: #00bfff; /* Matching cyan-blue color */
+  text-transform: uppercase;
+  letter-spacing: 1.5px; /* Slightly reduced letter spacing */
+  font-weight: 700; /* Bold text to make it stand out */
+}
